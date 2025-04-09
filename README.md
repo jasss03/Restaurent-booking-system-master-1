@@ -95,9 +95,7 @@ An approximation of the agile workflow was used in the development of this proje
   Adding menu for restaurent.
   Making the whole layout with SCSS, Boostrap, and JQuery for animation.
 
-Work was done on same branch as it is done by single person.
 
-<img width="1207" alt="Screenshot 2023-05-25 at 2 07 52 am" src="https://github.com/saifhosari/Restaurent-booking-system/assets/88719461/02386a89-a007-42b3-9889-c357ec56da5b">
 
 With the help detailed discription of commits will help and other contributors to know what commit does and why code has been changed.
 * It helped break the task down into smaller chunks which helped me organize my workday productively - I was able to dedicate time and effort to completing each task rather than planning over and over again.
