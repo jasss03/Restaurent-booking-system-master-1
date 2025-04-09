@@ -1,0 +1,228 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block head %}
+<title> Home </title>
+{% endblock %}
+<!-- Body of home page -->
+{% block content %}
+
+
+<!-- Login/Signup Modal -->
+<!-- Button trigger modal -->
+
+
+<!-- Navbar & Hero End -->
+{% include "animation.html" %}
+
+<!-- Service Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="row g-4">
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="service-item rounded pt-3">
+                <div class="p-4">
+                    <i class="fa fa-3x fa-user-tie text-primary mb-4"></i>
+                    <h5>Master Chefs</h5>
+                    <p>Experience the mastery of our exceptional chef through the finest culinary creations."
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="service-item rounded pt-3">
+                <div class="p-4">
+                    <i class="fa fa-3x fa-utensils text-primary mb-4"></i>
+                    <h5>Quality Food</h5>
+                    <p>Delight in the excellence of our delectable cuisine, crafted with utmost quality and care.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="service-item rounded pt-3">
+                <div class="p-4">
+                    <i class="fa fa-3x fa-cart-plus text-primary mb-4"></i>
+                    <h5>Online Order</h5>
+                    <p>Convenience meets flavor with seamless online ordering for quick and delicious meals.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+            <div class="service-item rounded pt-3">
+                <div class="p-4">
+                    <i class="fa fa-3x fa-headset text-primary mb-4"></i>
+                    <h5>24/7 Service</h5>
+                    <p>Enjoy round-the-clock convenience with our 24/7 service, delivering exceptional experiences anytime, anywhere.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Service End -->
+
+
+<!-- About Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="row g-5 align-items-center">
+        <div class="col-lg-6">
+            <div class="row g-3">
+                <div class="col-6 text-start">
+                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="{% static 'img/about-1.jpg' %}">
+                </div>
+                <div class="col-6 text-start">
+                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="{% static 'img/about-2.jpg' %}" style="margin-top: 25%;">
+                </div>
+                <div class="col-6 text-end">
+                    <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="{% static 'img/about-3.jpg' %}">
+                </div>
+                <div class="col-6 text-end">
+                    <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="{% static 'img/about-4.jpg' %}" >
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <h5 class="section-title ff-secondary text-start text-primary fw-normal">About Us</h5>
+            <h1 class="mb-4">Welcome to <i class="fa fa-utensils text-primary me-2"></i>Restoran</h1>
+            <p class="mb-4"> Indulge in a culinary adventure at our restaurant, where the tantalizing aroma of BBQ delights your senses. Experience an exquisite menu crafted with passion and savor the flavors that will leave you craving for more.</p>
+            <p class="mb-4">Embrace a dining experience like no other.</p>
+            <div class="row g-4 mb-4">
+                <div class="col-sm-6">
+                    <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">15</h1>
+                        <div class="ps-4">
+                            <p class="mb-0">Years of</p>
+                            <h6 class="text-uppercase mb-0">Experience</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="d-flex align-items-center border-start border-5 border-primary px-3">
+                        <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">50</h1>
+                        <div class="ps-4">
+                            <p class="mb-0">Popular</p>
+                            <h6 class="text-uppercase mb-0">Master Chefs</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+<!-- About End -->
+
+
+<!-- Menu Start -->
+<div class="container-xxl py-5">
+<div class="container">
+    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+        <h5 class="section-title ff-secondary text-center text-primary fw-normal">Food Menu</h5>
+        <h1 class="mb-5">Most Popular Items</h1>
+    </div>
+    <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+        <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+            <li class="nav-item">
+                <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                    <i class="fa fa-coffee fa-2x text-primary"></i>
+                    <div class="ps-3">
+                        <small class="text-body">Popular</small>
+                        <h6 class="mt-n1 mb-0">Best Item</h6>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-1.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Chicken Burger</span>
+                                    <span class="text-primary">$115</span>
+                                </h5>
+                                <small class="fst-italic">Irresistible chicken burger: Juicy, flavorful, and satisfying.</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-2.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Chicken Karahi</span>
+                                    <span class="text-primary">$120</span>
+                                </h5>
+                                <small class="fst-italic">Rich, aromatic, and mouthwatering. Chicken White Karahi: Creamy, flavorful, and indulgen</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-3.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Chicken White Karahi</span>
+                                    <span class="text-primary">$50</span>
+                                </h5>
+                                <small class="fst-italic"> Delicious, satisfying, and perfect combo</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-4.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Chicken Tikka</span>
+                                    <span class="text-primary">$89</span>
+                                </h5>
+                                <small class="fst-italic"> Delicious, satisfying, and perfect combo</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-5.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Platter</span>
+                                    <span class="text-primary">$400</span>
+                                </h5>
+                                <small class="fst-italic"> A feast of flavors, variety, and satisfaction</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="d-flex align-items-center">
+                            <img class="flex-shrink-0 img-fluid rounded" src="{% static 'img/menu-6.jpg' %}" alt="" style="width: 80px;">
+                            <div class="w-100 d-flex flex-column text-start ps-4">
+                                <h5 class="d-flex justify-content-between border-bottom pb-2">
+                                    <span>Chicken Burger with French Fries</span>
+                                    <span class="text-primary">$240</span>
+                                </h5>
+                                <small class="fst-italic">Creamy, succulent, and packed with flavor.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<!-- Menu End -->
+
+
+<!-- Back to Top -->
+<a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+{% block external_js%} 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.3.0/jquery.form.min.js" integrity="sha384-qlmct0AOBiA2VPZkMY3+2WqkHtIQ9lSdAsAn5RUJD/3vA5MKDgSGcdmIv4ycVxyn" crossorigin="anonymous"></script>
+
+{% endblock %}
+{% endblock %}
